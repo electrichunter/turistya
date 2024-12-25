@@ -1,0 +1,55 @@
+# Genel (OS ve IDE'ler)
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Node.js Modülleri
+/node_modules
+/frontend/turistya/node_modules
+/backend/node_modules
+
+# Paket Yöneticisi Dosyaları
+/frontend/turistya/pnp
+/frontend/turistya/pnp.*
+/frontend/turistya/yarn/*
+!/frontend/turistya/yarn/patches
+!/frontend/turistya/yarn/plugins
+!/frontend/turistya/yarn/releases
+!/frontend/turistya/yarn/versions
+
+# Derleme ve Çıktı Dosyaları
+/frontend/turistya/.next/
+/frontend/turistya/out/
+/frontend/turistya/build
+/backend/build
+
+# Test Kapsamı
+/frontend/turistya/coverage
+/backend/coverage
+
+# Çevresel ve Gizli Dosyalar
+/frontend/turistya/env*
+/backend/*.env
+*.pem
+
+# Hata Günlükleri
+/frontend/turistya/npm-debug.log*
+/frontend/turistya/yarn-debug.log*
+/frontend/turistya/yarn-error.log*
+/frontend/turistya/pnpm-debug.log*
+/backend/npm-debug.log*
+/backend/yarn-debug.log*
+/backend/yarn-error.log*
+/backend/pnpm-debug.log*
+
+# Vercel
+/frontend/turistya/vercel
+
+# TypeScript
+/frontend/turistya/*.tsbuildinfo
+/frontend/turistya/next-env.d.ts
+
+# Backend Özel
+/backend/logs
+/backend/tmp
